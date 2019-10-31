@@ -1,0 +1,6 @@
+framework module TLFilterView {
+  umbrella header "TLFilterView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,7 +7,9 @@
 //
 
 @import UIKit;
+#import <TLFilterView/TLFilterViewController.h>
 
-@interface TLViewController : UIViewController
+
+@interface TLViewController : TLFilterViewController
 
 @end
