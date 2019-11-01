@@ -295,12 +295,14 @@
 
 -(void) HideMySelf
 {
+      if(self.openRemoveFlag){
     [UIView animateWithDuration:0.33 animations:^{
-        self.view.frame = CGRectMake(self.view.width, self.view.y, self.view.width, self.view.height);
-    } completion:^(BOOL finished) {
-        self.view.frame = CGRectMake(0, self.view.y, self.view.width, self.view.height);
-        [self.view removeFromSuperview];
-    }];
+          self.view.frame = CGRectMake(self.view.width, self.view.y, self.view.width, self.view.height);
+      } completion:^(BOOL finished) {
+          self.view.frame = CGRectMake(0, self.view.y, self.view.width, self.view.height);
+          [self.view removeFromSuperview];
+      }];
+      }
 }
 
 -(void) ResetBtClick

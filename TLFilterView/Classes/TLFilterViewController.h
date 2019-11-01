@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 //此属于如果是YES，就没有数据请求
 @property(nonatomic, assign) BOOL noNetRequest;
+//是否开启自动关闭功能
+@property(nonatomic, assign) BOOL openRemoveFlag;
 
 @property (nonatomic,strong) UIView *topHeader;
 @property (nonatomic,strong) UITableView *myTableView;
