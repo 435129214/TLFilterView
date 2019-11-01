@@ -30,6 +30,8 @@
 
 @property(nonatomic, strong) NSArray *headerDataArr;
 
+@property(nonatomic, assign) CGFloat leftW;//左侧距离
+
 
 @end
 
@@ -56,9 +58,8 @@
 
 -(void) initData
 {
-    self.leftW = self.view.width*0.125;
-    
     sectionNum = 0;
+    self.leftW = [FilterConfigure shareInstance].leftW;
     
     self.dataArr = [NSMutableArray arrayWithCapacity:10];
 }
@@ -121,7 +122,7 @@
 
 - (UITableView *)myTableView {
     if (!_myTableView) {
-        CGFloat tableY = 30;
+        CGFloat tableY = 0;
     
         _myTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, tableY, self.view.bounds.size.width, self.view.bounds.size.height - tableY)];
         _myTableView.estimatedRowHeight = 0;
@@ -139,9 +140,10 @@
         [self.view addSubview:_myTableView];
         
         [_myTableView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(self.view).offset(tableY);
-            make.bottom.right.equalTo(self.view);
+            make.top.equalTo(self.topHeader.mas_bottom);
+            make.bottom.equalTo(self.view);
             make.left.equalTo(self.view).offset(self.leftW);
+            make.width.mas_equalTo([FilterConfigure shareInstance].contentWidth);
         }];
     }
     return _myTableView;
@@ -187,9 +189,6 @@
 {
     self.view.backgroundColor = [UIColor clearColor];
     
-    UIView *searchView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.myTableView.width, 40)];
-    self.myTableView.tableHeaderView = searchView;
-    
     UIView *leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.leftW, self.view.height)];
     leftView.backgroundColor = [UIColor blackColor];
     leftView.alpha = 0.2;
@@ -210,6 +209,18 @@
     
     self.resetBt.hidden = NO;
     self.sureBt.hidden = NO;
+}
+
+-(UIView *)topHeader
+{
+    if(!_topHeader){
+        _topHeader = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.myTableView.width, 30)];
+        [self.view addSubview:_topHeader];
+        
+        _topHeader.backgroundColor = [UIColor whiteColor];
+        
+    }
+    return _topHeader;
 }
 
 -(UIButton *) resetBt{

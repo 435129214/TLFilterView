@@ -11,61 +11,62 @@
 		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */; };
 		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */; };
-		0A14781D69F11137831EE501942BA441 /* FilterCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A2614C96D43B5BB6C41F4CDAE82366 /* FilterCollectionCell.m */; };
 		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C2EA880A93210DF1E465C2E44917928 /* Pods-TLFilterView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE7C749CA0E1D698FCA2C543E091450 /* Pods-TLFilterView_Example-dummy.m */; };
-		0FC1427A408F0554ACB355BB703FF100 /* FilterCollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A8A089863285F5F1EA269B5633222562 /* FilterCollectionCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15871BFF153148E18349416CC854BCD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
-		1698CBDC448B667526394129A14ABCDA /* FilterTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D09970472BA7627C42C0F68AB90590 /* FilterTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */; };
-		2682DFCE0DA29B578767B77522E65C68 /* UIView+FrameEx.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BD4257B159A200E7B739FA72994FD1 /* UIView+FrameEx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22DD8611DE8B1BAB6A8232C278E1BDC3 /* FilterSearchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 670C6C1D575BF18ECA3D334099275D17 /* FilterSearchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
 		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF2B0832F804293C551403C676B7E45 /* FilterFootView.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3217D3EA7F92B53E9E83A7323DDB74 /* FilterFootView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EC4EEA855C0D0AE9C211D6095CC6470 /* CategoryGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D19BD66C31F33A9EB7C626080EAE2F /* CategoryGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		438B7E52029C3E3E8B7170CA0F5B4E73 /* TLFilterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F9732D0236CA30A9042F6E2ED98F57 /* TLFilterViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4699CEC849691665E0021924155EFB6A /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = 15553BF14DEF91DD82189C9727F470D8 /* Children.m */; };
-		485F609A8555EB3C7BB8B875856E7794 /* TLFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27B1B88BB79946DF2DFF934E744FCED /* TLFilterViewController.m */; };
+		491C9C09FB1F7C0DFA4BF4AD77E6F9A9 /* CategoryGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4C20DF5E91BD5B3BCBB3FF8CAD5634 /* CategoryGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		500987C934C9D90410604252FF56F2B8 /* FilterSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC917F5268109DB1EA814272DA0B29F /* FilterSearchView.m */; };
-		55E559E0484B7613933161FEBC18B0D6 /* FilterConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CBE9359E32B66F2661586E6D213C90 /* FilterConfigure.m */; };
-		58341F8E43A80303E2EA2190A8E64CBF /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
-		59A18771E3AFFC0CA1A4AF14C3012A2D /* FilterFootView.h in Headers */ = {isa = PBXBuildFile; fileRef = B1CF2AB0F6C26A6F5DF79E975B347C06 /* FilterFootView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A538121A9241100FFE0D9F30B8D50C6 /* TLFilterView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6D350366FE985D5B1112947BB28D44 /* TLFilterView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B7ED2F87E8FE029CB70473C8F4A46FE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
+		5F152D420E5B1776FD4A439797A3B70C /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = D0487B9CCE0B0480DFDC630B041BF676 /* Children.m */; };
 		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D9B9CF0118732A5A29A0B9AA803DB8C /* FilterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 866B445B8677F3BA02C6555E5B2C84B3 /* FilterTableViewCell.m */; };
-		6DCFF08CD63E8B77460E5F0AE79EC30B /* FilterHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = A176599668865B1739AB18F273DB9D66 /* FilterHeadView.m */; };
+		72D174DA8088D59CBBE64A10652A44D2 /* Children.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E08EE3EB78634177C6BBBCFEB2223C4 /* Children.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
+		7B344D66F1DE150F113B160ABCADFF80 /* FilterTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 478E7DD9F197819E37AB16A5CE1F3E45 /* FilterTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
 		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
+		863A70894434727FBA12691AF8A8EE6D /* FilterConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CD8693619F6A06DB9B21B01DFAAA64 /* FilterConfigure.m */; };
 		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		915C76073E0334335881C8603D8CA368 /* CategoryGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E1337637D3C861478A78F86E586822 /* CategoryGroup.m */; };
+		8E12FE4A8DA3E27B38A398C1A0055112 /* TLFilterCommonHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F7E7B4E76C029995EF006305AEC275 /* TLFilterCommonHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E1E33A087A627DC6AE35405E269B72A /* FilterHeadView.h in Headers */ = {isa = PBXBuildFile; fileRef = E33DBA9A703645924BCF32D2B27CFB89 /* FilterHeadView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92254F1330CFCEA6A7DB3342543F9B59 /* FilterHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = AD899B926B904987297F8719E0E054C8 /* FilterHeadView.m */; };
 		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95E71BA3CB5A3091EFBCA8A831BD9A75 /* FilterFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9E37249FF4E33F43E841D2EB9625C4 /* FilterFootView.m */; };
-		9646C8A4F5E8D0A77E75CD8CF220CF69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
-		9BA31CB4A2DA3EECA4328AB396C0FFCE /* TLFilterView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 380F6D28D383EC5BE72289EE17ECA000 /* TLFilterView-dummy.m */; };
+		941BAC9792C0B26329DB117AE5FC576B /* FilterCollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 85298695CBF91CF9714A4F81A308FCF6 /* FilterCollectionCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94E89B61646295BE81AB803ACAE6E0F0 /* FilterSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 236FF56609792A56194C800CB927BFF6 /* FilterSectionView.m */; };
+		9608434E58926C3B54AD4B7DC0809949 /* FilterFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F166FDEADF73A773AEB5D181C52AEE /* FilterFootView.m */; };
+		9923B37D284E14D9620BDA3B9BC8EECC /* UIView+FrameEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 325CFE842369E3A3948D7AFBD1625A11 /* UIView+FrameEx.m */; };
 		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FEF508CCD9DE41A0B1EA71A189FCA9C /* FilterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33554379312E70CD5EEE1138488A20A9 /* FilterTableViewCell.m */; };
 		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
-		A777511CFFCEA7026155EF9A70A416C9 /* Children.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD2BCCDB68EFCDA908D764B70F1742A /* Children.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2376FA7150B564032014981380D5B6D /* TLFilterView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE18F7E3297ABF2F314B06DD7CD924C4 /* TLFilterView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B31E870AFC430A1BCD0B988FCB094588 /* FilterSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A73FE429741F5F8FEDF771402572634C /* FilterSectionView.m */; };
-		B4FCC1865FBD059B0DF68B383E084379 /* FilterSectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E5847D53C72E6F6F50710CBD72C758 /* FilterSectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A424B4BE929EB31303F130C87F481DBE /* FilterConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E7FB745F85D5ACD3F19E34C34598659 /* FilterConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC5BEBEC41EB75F9C8D1A94FD67C3602 /* UIView+FrameEx.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C4E813B328633F9ED62B7238091AA0 /* UIView+FrameEx.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
+		BEE4A802D142039D26707E50981A5B74 /* FilterSectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 17BDA58EB3EEF925924120D6C67696BF /* FilterSectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		CA9085A7CAF82DE8E2421F1B3BCB5877 /* FilterSearchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 31459E15218857E1FC9947D6AA93E926 /* FilterSearchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CADEA3D485A54BF82C83406A3689C6C1 /* UIView+FrameEx.m in Sources */ = {isa = PBXBuildFile; fileRef = EC118545F880C71E091FA01FED061B30 /* UIView+FrameEx.m */; };
+		C93109EB7590DFE236D0BAE7E69FC49F /* TLFilterViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5B472B27D05368470DC1ADFC70B3AA /* TLFilterViewHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */; };
 		D2347B0C3C8729744562655F0F6DB56E /* Pods-TLFilterView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E830DDD37674071B17FDD585A4B715F2 /* Pods-TLFilterView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D59B989518BDCD1AF6D8061ED0B53175 /* TLFilterCommonHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C647B1FCD717FFC567BCC7494B4343 /* TLFilterCommonHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E02FC73EF00B442CD1ABBC7A0FA6ADFB /* FilterHeadView.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3D1C4FF6F6E2E565253EE5415FD631 /* FilterHeadView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3A7663321FAFE930209202B319A3AC0 /* CategoryGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C992BC3330D14E78BA64A821B4CFE60 /* CategoryGroup.m */; };
+		D825D71B7DFE9DFD9C8CD599CD55B716 /* TLFilterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 92940A43B058D196CD731332E681486C /* TLFilterViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		E52B3DBA8DB46900FE423363EB6033FE /* TLFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD79AE6F2DD9CB46599B921999858E /* TLFilterViewController.m */; };
 		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */; };
 		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB5E5566225187DC2F84EA04A919DA82 /* TLFilterView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB0C118A604695D8B7BF80EE96A2F49 /* TLFilterView-dummy.m */; };
+		EFF17B55694BACD4FC3934496F4CC416 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		F87DB8063CCB83BACF5B1AE2EF920331 /* FilterCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A71D44DE46C9BF29373D5DE6D34E75FF /* FilterCollectionCell.m */; };
 		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBADDADE3F62F2F77D5D0C02BFE55982 /* FilterConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC1B06ABF4E90663084FA5AE5D61FF2 /* FilterConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB1A1C0374AE2D71F4AD93F850424E42 /* FilterSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B64DAC996CC7BE6D3CD7B8AD8F3124 /* FilterSearchView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +77,7 @@
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		6DD4BEDE1036830BA32DB4F86144B7B6 /* PBXContainerItemProxy */ = {
+		8F2F82B2199F17337FE21D31661FF410 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -95,83 +96,84 @@
 /* Begin PBXFileReference section */
 		002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		03C4E813B328633F9ED62B7238091AA0 /* UIView+FrameEx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FrameEx.h"; path = "TLFilterView/Classes/UIView+FrameEx.h"; sourceTree = "<group>"; };
 		071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		0B5B472B27D05368470DC1ADFC70B3AA /* TLFilterViewHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLFilterViewHeader.h; path = TLFilterView/Classes/TLFilterViewHeader.h; sourceTree = "<group>"; };
 		0D5C395D7E8683F081CD13CA2E300374 /* Pods-TLFilterView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLFilterView_Example-Info.plist"; sourceTree = "<group>"; };
 		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		15553BF14DEF91DD82189C9727F470D8 /* Children.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Children.m; sourceTree = "<group>"; };
-		15BD4257B159A200E7B739FA72994FD1 /* UIView+FrameEx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FrameEx.h"; path = "TLFilterView/Classes/UIView+FrameEx.h"; sourceTree = "<group>"; };
+		13B3AB0F3A15C30949F9F29469D4488F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		13CD8693619F6A06DB9B21B01DFAAA64 /* FilterConfigure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterConfigure.m; path = TLFilterView/Classes/FilterConfigure.m; sourceTree = "<group>"; };
 		15FE77E224AD0F5ADC2FD3248204837F /* Pods_TLFilterView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLFilterView_Example.framework; path = "Pods-TLFilterView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BDA58EB3EEF925924120D6C67696BF /* FilterSectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterSectionView.h; path = TLFilterView/Classes/FilterSectionView.h; sourceTree = "<group>"; };
 		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		236FF56609792A56194C800CB927BFF6 /* FilterSectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterSectionView.m; path = TLFilterView/Classes/FilterSectionView.m; sourceTree = "<group>"; };
 		267C6BE0384091EC7F524BD89A02D489 /* Pods-TLFilterView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLFilterView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		272A6EC8578A9147C502DD617D7466A9 /* Pods-TLFilterView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLFilterView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		31459E15218857E1FC9947D6AA93E926 /* FilterSearchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterSearchView.h; path = TLFilterView/Classes/FilterSearchView.h; sourceTree = "<group>"; };
+		325CFE842369E3A3948D7AFBD1625A11 /* UIView+FrameEx.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FrameEx.m"; path = "TLFilterView/Classes/UIView+FrameEx.m"; sourceTree = "<group>"; };
+		33554379312E70CD5EEE1138488A20A9 /* FilterTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterTableViewCell.m; path = TLFilterView/Classes/FilterTableViewCell.m; sourceTree = "<group>"; };
 		3626B6B6D73928464389E7FA7EA48562 /* Pods-TLFilterView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TLFilterView_Example.modulemap"; sourceTree = "<group>"; };
 		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		380F6D28D383EC5BE72289EE17ECA000 /* TLFilterView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLFilterView-dummy.m"; sourceTree = "<group>"; };
 		39EF59330DA63D8E04A542DAEDFE699C /* Pods-TLFilterView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLFilterView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		3E4C20DF5E91BD5B3BCBB3FF8CAD5634 /* CategoryGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CategoryGroup.h; sourceTree = "<group>"; };
+		478E7DD9F197819E37AB16A5CE1F3E45 /* FilterTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterTableViewCell.h; path = TLFilterView/Classes/FilterTableViewCell.h; sourceTree = "<group>"; };
+		4AEA9EF8EF0B6E86F4A197A72148AA35 /* TLFilterView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLFilterView.xcconfig; sourceTree = "<group>"; };
 		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		5AC1B06ABF4E90663084FA5AE5D61FF2 /* FilterConfigure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterConfigure.h; path = TLFilterView/Classes/FilterConfigure.h; sourceTree = "<group>"; };
+		58F166FDEADF73A773AEB5D181C52AEE /* FilterFootView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterFootView.m; path = TLFilterView/Classes/FilterFootView.m; sourceTree = "<group>"; };
 		5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		62C647B1FCD717FFC567BCC7494B4343 /* TLFilterCommonHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLFilterCommonHeader.h; path = TLFilterView/Classes/TLFilterCommonHeader.h; sourceTree = "<group>"; };
-		63E1337637D3C861478A78F86E586822 /* CategoryGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CategoryGroup.m; sourceTree = "<group>"; };
+		670C6C1D575BF18ECA3D334099275D17 /* FilterSearchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterSearchView.h; path = TLFilterView/Classes/FilterSearchView.h; sourceTree = "<group>"; };
 		6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E08EE3EB78634177C6BBBCFEB2223C4 /* Children.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Children.h; sourceTree = "<group>"; };
+		7C6D350366FE985D5B1112947BB28D44 /* TLFilterView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLFilterView-umbrella.h"; sourceTree = "<group>"; };
+		7C992BC3330D14E78BA64A821B4CFE60 /* CategoryGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CategoryGroup.m; sourceTree = "<group>"; };
+		7E7FB745F85D5ACD3F19E34C34598659 /* FilterConfigure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterConfigure.h; path = TLFilterView/Classes/FilterConfigure.h; sourceTree = "<group>"; };
 		7FB474B2759A5B755DB9C2AA5D792EB2 /* TLFilterView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLFilterView.framework; path = TLFilterView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		866B445B8677F3BA02C6555E5B2C84B3 /* FilterTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterTableViewCell.m; path = TLFilterView/Classes/FilterTableViewCell.m; sourceTree = "<group>"; };
+		84B64DAC996CC7BE6D3CD7B8AD8F3124 /* FilterSearchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterSearchView.m; path = TLFilterView/Classes/FilterSearchView.m; sourceTree = "<group>"; };
+		85298695CBF91CF9714A4F81A308FCF6 /* FilterCollectionCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterCollectionCell.h; path = TLFilterView/Classes/FilterCollectionCell.h; sourceTree = "<group>"; };
+		85F7E7B4E76C029995EF006305AEC275 /* TLFilterCommonHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLFilterCommonHeader.h; path = TLFilterView/Classes/TLFilterCommonHeader.h; sourceTree = "<group>"; };
 		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		87A2614C96D43B5BB6C41F4CDAE82366 /* FilterCollectionCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterCollectionCell.m; path = TLFilterView/Classes/FilterCollectionCell.m; sourceTree = "<group>"; };
-		87E5847D53C72E6F6F50710CBD72C758 /* FilterSectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterSectionView.h; path = TLFilterView/Classes/FilterSectionView.h; sourceTree = "<group>"; };
 		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		8BFD79AE6F2DD9CB46599B921999858E /* TLFilterViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLFilterViewController.m; path = TLFilterView/Classes/TLFilterViewController.m; sourceTree = "<group>"; };
 		8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		92940A43B058D196CD731332E681486C /* TLFilterViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLFilterViewController.h; path = TLFilterView/Classes/TLFilterViewController.h; sourceTree = "<group>"; };
+		9A00F383C012E42315E9FF3A63C10E3B /* TLFilterView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLFilterView.modulemap; sourceTree = "<group>"; };
 		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DD2BCCDB68EFCDA908D764B70F1742A /* Children.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Children.h; sourceTree = "<group>"; };
-		9FFE411BB5E66DD1B5DB109E2FB57677 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A176599668865B1739AB18F273DB9D66 /* FilterHeadView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterHeadView.m; path = TLFilterView/Classes/FilterHeadView.m; sourceTree = "<group>"; };
 		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		A1B15907E4C870D254BD302CBB85BED7 /* TLFilterView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLFilterView.modulemap; sourceTree = "<group>"; };
-		A73FE429741F5F8FEDF771402572634C /* FilterSectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterSectionView.m; path = TLFilterView/Classes/FilterSectionView.m; sourceTree = "<group>"; };
-		A8A089863285F5F1EA269B5633222562 /* FilterCollectionCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterCollectionCell.h; path = TLFilterView/Classes/FilterCollectionCell.h; sourceTree = "<group>"; };
+		A65519E54FFB66C56739B997BE5ED090 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A71D44DE46C9BF29373D5DE6D34E75FF /* FilterCollectionCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterCollectionCell.m; path = TLFilterView/Classes/FilterCollectionCell.m; sourceTree = "<group>"; };
 		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		B1CF2AB0F6C26A6F5DF79E975B347C06 /* FilterFootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterFootView.h; path = TLFilterView/Classes/FilterFootView.h; sourceTree = "<group>"; };
-		B254FAE304958F8FEEFF59DF16598780 /* TLFilterView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TLFilterView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD899B926B904987297F8719E0E054C8 /* FilterHeadView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterHeadView.m; path = TLFilterView/Classes/FilterHeadView.m; sourceTree = "<group>"; };
 		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		B8A57F1F59EE15C520E59C18FF059223 /* TLFilterView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLFilterView-prefix.pch"; sourceTree = "<group>"; };
 		BC0E8C0D0328C373EAB94921D276DC44 /* Pods-TLFilterView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLFilterView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C2F9732D0236CA30A9042F6E2ED98F57 /* TLFilterViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLFilterViewController.h; path = TLFilterView/Classes/TLFilterViewController.h; sourceTree = "<group>"; };
+		BFB0C118A604695D8B7BF80EE96A2F49 /* TLFilterView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLFilterView-dummy.m"; sourceTree = "<group>"; };
 		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		C6BB67E4CCE1CAA10862669CB55CD4B4 /* Pods-TLFilterView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLFilterView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C6CBE9359E32B66F2661586E6D213C90 /* FilterConfigure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterConfigure.m; path = TLFilterView/Classes/FilterConfigure.m; sourceTree = "<group>"; };
+		CA3217D3EA7F92B53E9E83A7323DDB74 /* FilterFootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterFootView.h; path = TLFilterView/Classes/FilterFootView.h; sourceTree = "<group>"; };
 		CBE7C749CA0E1D698FCA2C543E091450 /* Pods-TLFilterView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLFilterView_Example-dummy.m"; sourceTree = "<group>"; };
-		D0EA0119DC7222F76F2903B4A312F00E /* TLFilterView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLFilterView-prefix.pch"; sourceTree = "<group>"; };
+		CF2760CE1987B606D7AAB177EFB5790F /* TLFilterView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TLFilterView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CF53B7D3778FB688FE02B4FA0593DD25 /* TLFilterView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLFilterView-Info.plist"; sourceTree = "<group>"; };
+		D0487B9CCE0B0480DFDC630B041BF676 /* Children.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Children.m; sourceTree = "<group>"; };
 		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		D6C82D21B2AF0034D4D17469EB8A95CA /* TLFilterView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLFilterView-Info.plist"; sourceTree = "<group>"; };
-		DD692A6AC6B4DA30837A8BDFB095C74E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DE18F7E3297ABF2F314B06DD7CD924C4 /* TLFilterView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLFilterView-umbrella.h"; sourceTree = "<group>"; };
 		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		E27B1B88BB79946DF2DFF934E744FCED /* TLFilterViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLFilterViewController.m; path = TLFilterView/Classes/TLFilterViewController.m; sourceTree = "<group>"; };
-		E3D19BD66C31F33A9EB7C626080EAE2F /* CategoryGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CategoryGroup.h; sourceTree = "<group>"; };
+		E33DBA9A703645924BCF32D2B27CFB89 /* FilterHeadView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterHeadView.h; path = TLFilterView/Classes/FilterHeadView.h; sourceTree = "<group>"; };
 		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		E830DDD37674071B17FDD585A4B715F2 /* Pods-TLFilterView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLFilterView_Example-umbrella.h"; sourceTree = "<group>"; };
-		EB3D1C4FF6F6E2E565253EE5415FD631 /* FilterHeadView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterHeadView.h; path = TLFilterView/Classes/FilterHeadView.h; sourceTree = "<group>"; };
-		EC118545F880C71E091FA01FED061B30 /* UIView+FrameEx.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FrameEx.m"; path = "TLFilterView/Classes/UIView+FrameEx.m"; sourceTree = "<group>"; };
 		EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		F1D09970472BA7627C42C0F68AB90590 /* FilterTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterTableViewCell.h; path = TLFilterView/Classes/FilterTableViewCell.h; sourceTree = "<group>"; };
 		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		FB9E37249FF4E33F43E841D2EB9625C4 /* FilterFootView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterFootView.m; path = TLFilterView/Classes/FilterFootView.m; sourceTree = "<group>"; };
-		FBC917F5268109DB1EA814272DA0B29F /* FilterSearchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterSearchView.m; path = TLFilterView/Classes/FilterSearchView.m; sourceTree = "<group>"; };
 		FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		FEF0BA68694B47FBD06F5453623408FA /* TLFilterView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLFilterView.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,12 +186,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3F2F3A5501ED40B10BDAE89DFC69849 /* Frameworks */ = {
+		BC3DF13BB4D1F91EC42355216ED96868 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9646C8A4F5E8D0A77E75CD8CF220CF69 /* Foundation.framework in Frameworks */,
-				58341F8E43A80303E2EA2190A8E64CBF /* Masonry.framework in Frameworks */,
+				EFF17B55694BACD4FC3934496F4CC416 /* Foundation.framework in Frameworks */,
+				5B7ED2F87E8FE029CB70473C8F4A46FE /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,12 +206,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4AC60AEBF973027769D61FABF47C83AF /* Development Pods */ = {
+		5A92C5C435A0BA4F6C41DC7E7307778D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				88186CA5BEDA956A5221FB1ED93CAAC5 /* TLFilterView */,
+				9A00F383C012E42315E9FF3A63C10E3B /* TLFilterView.modulemap */,
+				4AEA9EF8EF0B6E86F4A197A72148AA35 /* TLFilterView.xcconfig */,
+				BFB0C118A604695D8B7BF80EE96A2F49 /* TLFilterView-dummy.m */,
+				CF53B7D3778FB688FE02B4FA0593DD25 /* TLFilterView-Info.plist */,
+				B8A57F1F59EE15C520E59C18FF059223 /* TLFilterView-prefix.pch */,
+				7C6D350366FE985D5B1112947BB28D44 /* TLFilterView-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TLFilterView";
 			sourceTree = "<group>";
 		};
 		641727D7EBF7D099C436C5885417E360 /* Masonry */ = {
@@ -254,46 +262,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		88186CA5BEDA956A5221FB1ED93CAAC5 /* TLFilterView */ = {
+		A7A74E150D8D585C339167674FD87FAA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A8A089863285F5F1EA269B5633222562 /* FilterCollectionCell.h */,
-				87A2614C96D43B5BB6C41F4CDAE82366 /* FilterCollectionCell.m */,
-				5AC1B06ABF4E90663084FA5AE5D61FF2 /* FilterConfigure.h */,
-				C6CBE9359E32B66F2661586E6D213C90 /* FilterConfigure.m */,
-				B1CF2AB0F6C26A6F5DF79E975B347C06 /* FilterFootView.h */,
-				FB9E37249FF4E33F43E841D2EB9625C4 /* FilterFootView.m */,
-				EB3D1C4FF6F6E2E565253EE5415FD631 /* FilterHeadView.h */,
-				A176599668865B1739AB18F273DB9D66 /* FilterHeadView.m */,
-				31459E15218857E1FC9947D6AA93E926 /* FilterSearchView.h */,
-				FBC917F5268109DB1EA814272DA0B29F /* FilterSearchView.m */,
-				87E5847D53C72E6F6F50710CBD72C758 /* FilterSectionView.h */,
-				A73FE429741F5F8FEDF771402572634C /* FilterSectionView.m */,
-				F1D09970472BA7627C42C0F68AB90590 /* FilterTableViewCell.h */,
-				866B445B8677F3BA02C6555E5B2C84B3 /* FilterTableViewCell.m */,
-				62C647B1FCD717FFC567BCC7494B4343 /* TLFilterCommonHeader.h */,
-				C2F9732D0236CA30A9042F6E2ED98F57 /* TLFilterViewController.h */,
-				E27B1B88BB79946DF2DFF934E744FCED /* TLFilterViewController.m */,
-				15BD4257B159A200E7B739FA72994FD1 /* UIView+FrameEx.h */,
-				EC118545F880C71E091FA01FED061B30 /* UIView+FrameEx.m */,
-				9B63C67BAD40DD00FD6A2CD9FE28E3E2 /* Model */,
-				C06264D4ACBBE6450ADCE372A92F6B94 /* Pod */,
-				C272F16160947D735B94C94039FEEFF2 /* Support Files */,
+				13B3AB0F3A15C30949F9F29469D4488F /* LICENSE */,
+				A65519E54FFB66C56739B997BE5ED090 /* README.md */,
+				CF2760CE1987B606D7AAB177EFB5790F /* TLFilterView.podspec */,
 			);
-			name = TLFilterView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		9B63C67BAD40DD00FD6A2CD9FE28E3E2 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				E3D19BD66C31F33A9EB7C626080EAE2F /* CategoryGroup.h */,
-				63E1337637D3C861478A78F86E586822 /* CategoryGroup.m */,
-				9DD2BCCDB68EFCDA908D764B70F1742A /* Children.h */,
-				15553BF14DEF91DD82189C9727F470D8 /* Children.m */,
-			);
-			name = Model;
-			path = TLFilterView/Classes/Model;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A85C66631996E1D6D843A1222F8035BF /* Products */ = {
@@ -306,12 +282,51 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		AC36CEECDC5F9D3A855451B1447179DF /* TLFilterView */ = {
+			isa = PBXGroup;
+			children = (
+				85298695CBF91CF9714A4F81A308FCF6 /* FilterCollectionCell.h */,
+				A71D44DE46C9BF29373D5DE6D34E75FF /* FilterCollectionCell.m */,
+				7E7FB745F85D5ACD3F19E34C34598659 /* FilterConfigure.h */,
+				13CD8693619F6A06DB9B21B01DFAAA64 /* FilterConfigure.m */,
+				CA3217D3EA7F92B53E9E83A7323DDB74 /* FilterFootView.h */,
+				58F166FDEADF73A773AEB5D181C52AEE /* FilterFootView.m */,
+				E33DBA9A703645924BCF32D2B27CFB89 /* FilterHeadView.h */,
+				AD899B926B904987297F8719E0E054C8 /* FilterHeadView.m */,
+				670C6C1D575BF18ECA3D334099275D17 /* FilterSearchView.h */,
+				84B64DAC996CC7BE6D3CD7B8AD8F3124 /* FilterSearchView.m */,
+				17BDA58EB3EEF925924120D6C67696BF /* FilterSectionView.h */,
+				236FF56609792A56194C800CB927BFF6 /* FilterSectionView.m */,
+				478E7DD9F197819E37AB16A5CE1F3E45 /* FilterTableViewCell.h */,
+				33554379312E70CD5EEE1138488A20A9 /* FilterTableViewCell.m */,
+				85F7E7B4E76C029995EF006305AEC275 /* TLFilterCommonHeader.h */,
+				92940A43B058D196CD731332E681486C /* TLFilterViewController.h */,
+				8BFD79AE6F2DD9CB46599B921999858E /* TLFilterViewController.m */,
+				0B5B472B27D05368470DC1ADFC70B3AA /* TLFilterViewHeader.h */,
+				03C4E813B328633F9ED62B7238091AA0 /* UIView+FrameEx.h */,
+				325CFE842369E3A3948D7AFBD1625A11 /* UIView+FrameEx.m */,
+				C2813611901E626CE8C86E72E46470C3 /* Model */,
+				A7A74E150D8D585C339167674FD87FAA /* Pod */,
+				5A92C5C435A0BA4F6C41DC7E7307778D /* Support Files */,
+			);
+			name = TLFilterView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		B100D9711DD282A33D82476F0D3BEFBF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				C7BF475972AB665ACC43D5556555E711 /* Pods-TLFilterView_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B2493E64629D8DCAF184D8E0FE93B451 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC36CEECDC5F9D3A855451B1447179DF /* TLFilterView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B8E2C472EF7E7FDC3762375EC6A7F033 /* iOS */ = {
@@ -337,28 +352,16 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		C06264D4ACBBE6450ADCE372A92F6B94 /* Pod */ = {
+		C2813611901E626CE8C86E72E46470C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DD692A6AC6B4DA30837A8BDFB095C74E /* LICENSE */,
-				9FFE411BB5E66DD1B5DB109E2FB57677 /* README.md */,
-				B254FAE304958F8FEEFF59DF16598780 /* TLFilterView.podspec */,
+				3E4C20DF5E91BD5B3BCBB3FF8CAD5634 /* CategoryGroup.h */,
+				7C992BC3330D14E78BA64A821B4CFE60 /* CategoryGroup.m */,
+				6E08EE3EB78634177C6BBBCFEB2223C4 /* Children.h */,
+				D0487B9CCE0B0480DFDC630B041BF676 /* Children.m */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C272F16160947D735B94C94039FEEFF2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A1B15907E4C870D254BD302CBB85BED7 /* TLFilterView.modulemap */,
-				FEF0BA68694B47FBD06F5453623408FA /* TLFilterView.xcconfig */,
-				380F6D28D383EC5BE72289EE17ECA000 /* TLFilterView-dummy.m */,
-				D6C82D21B2AF0034D4D17469EB8A95CA /* TLFilterView-Info.plist */,
-				D0EA0119DC7222F76F2903B4A312F00E /* TLFilterView-prefix.pch */,
-				DE18F7E3297ABF2F314B06DD7CD924C4 /* TLFilterView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TLFilterView";
+			name = Model;
+			path = TLFilterView/Classes/Model;
 			sourceTree = "<group>";
 		};
 		C7BF475972AB665ACC43D5556555E711 /* Pods-TLFilterView_Example */ = {
@@ -382,7 +385,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4AC60AEBF973027769D61FABF47C83AF /* Development Pods */,
+				B2493E64629D8DCAF184D8E0FE93B451 /* Development Pods */,
 				DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
 				A85C66631996E1D6D843A1222F8035BF /* Products */,
@@ -402,6 +405,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		70A875E61110C4A7BC68C54AF99ACBDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491C9C09FB1F7C0DFA4BF4AD77E6F9A9 /* CategoryGroup.h in Headers */,
+				72D174DA8088D59CBBE64A10652A44D2 /* Children.h in Headers */,
+				941BAC9792C0B26329DB117AE5FC576B /* FilterCollectionCell.h in Headers */,
+				A424B4BE929EB31303F130C87F481DBE /* FilterConfigure.h in Headers */,
+				3AF2B0832F804293C551403C676B7E45 /* FilterFootView.h in Headers */,
+				8E1E33A087A627DC6AE35405E269B72A /* FilterHeadView.h in Headers */,
+				22DD8611DE8B1BAB6A8232C278E1BDC3 /* FilterSearchView.h in Headers */,
+				BEE4A802D142039D26707E50981A5B74 /* FilterSectionView.h in Headers */,
+				7B344D66F1DE150F113B160ABCADFF80 /* FilterTableViewCell.h in Headers */,
+				8E12FE4A8DA3E27B38A398C1A0055112 /* TLFilterCommonHeader.h in Headers */,
+				5A538121A9241100FFE0D9F30B8D50C6 /* TLFilterView-umbrella.h in Headers */,
+				D825D71B7DFE9DFD9C8CD599CD55B716 /* TLFilterViewController.h in Headers */,
+				C93109EB7590DFE236D0BAE7E69FC49F /* TLFilterViewHeader.h in Headers */,
+				AC5BEBEC41EB75F9C8D1A94FD67C3602 /* UIView+FrameEx.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -430,26 +454,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2347B0C3C8729744562655F0F6DB56E /* Pods-TLFilterView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EDD8DE34CE2CCF00703600205BE58D32 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3EC4EEA855C0D0AE9C211D6095CC6470 /* CategoryGroup.h in Headers */,
-				A777511CFFCEA7026155EF9A70A416C9 /* Children.h in Headers */,
-				0FC1427A408F0554ACB355BB703FF100 /* FilterCollectionCell.h in Headers */,
-				FBADDADE3F62F2F77D5D0C02BFE55982 /* FilterConfigure.h in Headers */,
-				59A18771E3AFFC0CA1A4AF14C3012A2D /* FilterFootView.h in Headers */,
-				E02FC73EF00B442CD1ABBC7A0FA6ADFB /* FilterHeadView.h in Headers */,
-				CA9085A7CAF82DE8E2421F1B3BCB5877 /* FilterSearchView.h in Headers */,
-				B4FCC1865FBD059B0DF68B383E084379 /* FilterSectionView.h in Headers */,
-				1698CBDC448B667526394129A14ABCDA /* FilterTableViewCell.h in Headers */,
-				D59B989518BDCD1AF6D8061ED0B53175 /* TLFilterCommonHeader.h in Headers */,
-				B2376FA7150B564032014981380D5B6D /* TLFilterView-umbrella.h in Headers */,
-				438B7E52029C3E3E8B7170CA0F5B4E73 /* TLFilterViewController.h in Headers */,
-				2682DFCE0DA29B578767B77522E65C68 /* UIView+FrameEx.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,17 +500,17 @@
 		};
 		BE9BA8AE957AF05A56CD51E6FDDA67D2 /* TLFilterView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7053181A400DE1652ABB8AE455BF8287 /* Build configuration list for PBXNativeTarget "TLFilterView" */;
+			buildConfigurationList = FE948B7B83192791D3BD83FFC552FA22 /* Build configuration list for PBXNativeTarget "TLFilterView" */;
 			buildPhases = (
-				EDD8DE34CE2CCF00703600205BE58D32 /* Headers */,
-				9FA5EA2AC204DC2BC96233F0CCBFD044 /* Sources */,
-				C3F2F3A5501ED40B10BDAE89DFC69849 /* Frameworks */,
-				39FC6092D48436C26CAE113BFAC55CBE /* Resources */,
+				70A875E61110C4A7BC68C54AF99ACBDC /* Headers */,
+				9D21C2226CC3991EC363874B7131D81F /* Sources */,
+				BC3DF13BB4D1F91EC42355216ED96868 /* Frameworks */,
+				CC27A649AEF8BB728438EB860C0C87FB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9F78987C85063FABD87E7F0F2E77FB19 /* PBXTargetDependency */,
+				C8DA25B0263C5C9869FAEFBBECD87418 /* PBXTargetDependency */,
 			);
 			name = TLFilterView;
 			productName = TLFilterView;
@@ -543,13 +547,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		39FC6092D48436C26CAE113BFAC55CBE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7B3F2A7FBA2B7EBC6AC85EE79D3C5449 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -558,6 +555,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC27A649AEF8BB728438EB860C0C87FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -593,22 +597,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FA5EA2AC204DC2BC96233F0CCBFD044 /* Sources */ = {
+		9D21C2226CC3991EC363874B7131D81F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				915C76073E0334335881C8603D8CA368 /* CategoryGroup.m in Sources */,
-				4699CEC849691665E0021924155EFB6A /* Children.m in Sources */,
-				0A14781D69F11137831EE501942BA441 /* FilterCollectionCell.m in Sources */,
-				55E559E0484B7613933161FEBC18B0D6 /* FilterConfigure.m in Sources */,
-				95E71BA3CB5A3091EFBCA8A831BD9A75 /* FilterFootView.m in Sources */,
-				6DCFF08CD63E8B77460E5F0AE79EC30B /* FilterHeadView.m in Sources */,
-				500987C934C9D90410604252FF56F2B8 /* FilterSearchView.m in Sources */,
-				B31E870AFC430A1BCD0B988FCB094588 /* FilterSectionView.m in Sources */,
-				6D9B9CF0118732A5A29A0B9AA803DB8C /* FilterTableViewCell.m in Sources */,
-				9BA31CB4A2DA3EECA4328AB396C0FFCE /* TLFilterView-dummy.m in Sources */,
-				485F609A8555EB3C7BB8B875856E7794 /* TLFilterViewController.m in Sources */,
-				CADEA3D485A54BF82C83406A3689C6C1 /* UIView+FrameEx.m in Sources */,
+				D3A7663321FAFE930209202B319A3AC0 /* CategoryGroup.m in Sources */,
+				5F152D420E5B1776FD4A439797A3B70C /* Children.m in Sources */,
+				F87DB8063CCB83BACF5B1AE2EF920331 /* FilterCollectionCell.m in Sources */,
+				863A70894434727FBA12691AF8A8EE6D /* FilterConfigure.m in Sources */,
+				9608434E58926C3B54AD4B7DC0809949 /* FilterFootView.m in Sources */,
+				92254F1330CFCEA6A7DB3342543F9B59 /* FilterHeadView.m in Sources */,
+				FB1A1C0374AE2D71F4AD93F850424E42 /* FilterSearchView.m in Sources */,
+				94E89B61646295BE81AB803ACAE6E0F0 /* FilterSectionView.m in Sources */,
+				9FEF508CCD9DE41A0B1EA71A189FCA9C /* FilterTableViewCell.m in Sources */,
+				EB5E5566225187DC2F84EA04A919DA82 /* TLFilterView-dummy.m in Sources */,
+				E52B3DBA8DB46900FE423363EB6033FE /* TLFilterViewController.m in Sources */,
+				9923B37D284E14D9620BDA3B9BC8EECC /* UIView+FrameEx.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,47 +631,15 @@
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
 			targetProxy = 4DD55B12F4267FB5AE2628C5FD6BB876 /* PBXContainerItemProxy */;
 		};
-		9F78987C85063FABD87E7F0F2E77FB19 /* PBXTargetDependency */ = {
+		C8DA25B0263C5C9869FAEFBBECD87418 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 6DD4BEDE1036830BA32DB4F86144B7B6 /* PBXContainerItemProxy */;
+			targetProxy = 8F2F82B2199F17337FE21D31661FF410 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		045B84471AAD53A1A56952AA3516C2CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEF0BA68694B47FBD06F5453623408FA /* TLFilterView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TLFilterView/TLFilterView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TLFilterView/TLFilterView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TLFilterView/TLFilterView.modulemap";
-				PRODUCT_MODULE_NAME = TLFilterView;
-				PRODUCT_NAME = TLFilterView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -888,9 +860,9 @@
 			};
 			name = Debug;
 		};
-		B4EFC09F59C56F97051D1E8F0C5DA129 /* Debug */ = {
+		A6488B01859AD940845CDA3786F6AE68 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEF0BA68694B47FBD06F5453623408FA /* TLFilterView.xcconfig */;
+			baseConfigurationReference = 4AEA9EF8EF0B6E86F4A197A72148AA35 /* TLFilterView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -918,6 +890,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		D03B2A66C0D9B329E45052B12B3276AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEA9EF8EF0B6E86F4A197A72148AA35 /* TLFilterView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TLFilterView/TLFilterView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLFilterView/TLFilterView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLFilterView/TLFilterView.modulemap";
+				PRODUCT_MODULE_NAME = TLFilterView;
+				PRODUCT_NAME = TLFilterView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		E647F1DA4326153855A49C2BF85D10F8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -965,15 +969,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7053181A400DE1652ABB8AE455BF8287 /* Build configuration list for PBXNativeTarget "TLFilterView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B4EFC09F59C56F97051D1E8F0C5DA129 /* Debug */,
-				045B84471AAD53A1A56952AA3516C2CD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -988,6 +983,15 @@
 			buildConfigurations = (
 				9F9AD3ABBAA8B0952EBF09C1CD73EF68 /* Debug */,
 				E647F1DA4326153855A49C2BF85D10F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE948B7B83192791D3BD83FFC552FA22 /* Build configuration list for PBXNativeTarget "TLFilterView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6488B01859AD940845CDA3786F6AE68 /* Debug */,
+				D03B2A66C0D9B329E45052B12B3276AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

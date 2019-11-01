@@ -11,11 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TLFilterViewController : UIViewController
 
-@property(nonatomic, assign) CGFloat leftW;//左侧距离
-
 //此属于如果是YES，就没有数据请求
 @property(nonatomic, assign) BOOL noNetRequest;
 
+@property (nonatomic,strong) UIView *topHeader;
 @property (nonatomic,strong) UITableView *myTableView;
 
 @property (nonatomic, strong) UIButton *resetBt,*sureBt;

@@ -11,8 +11,6 @@
 #import <Masonry/Masonry.h>
 #import "FilterConfigure.h"
 
-#define FilterScreenW [UIScreen mainScreen].bounds.size.width
-
 /************************自定义weak-strong-dance****START*************************/
 /**
  

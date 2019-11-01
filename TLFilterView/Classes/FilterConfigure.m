@@ -45,6 +45,8 @@
         config.sectionTitleFontSize = 14;
         
         config.showSectionChooseText = NO;
+        
+        config.contentWidth = [UIScreen mainScreen].bounds.size.width;
     });
     
     return config;

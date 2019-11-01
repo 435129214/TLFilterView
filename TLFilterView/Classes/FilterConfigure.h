@@ -39,6 +39,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic, assign) BOOL showSectionChooseText;
 
+//左侧空缺大小
+@property(nonatomic, assign) CGFloat leftW;
+//窗口放置内容大小
+@property(nonatomic, assign) CGFloat contentWidth;
+
 +(instancetype) shareInstance;
 
 @end

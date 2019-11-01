@@ -21,6 +21,7 @@
 #import "Children.h"
 #import "TLFilterCommonHeader.h"
 #import "TLFilterViewController.h"
+#import "TLFilterViewHeader.h"
 #import "UIView+FrameEx.h"
 
 FOUNDATION_EXPORT double TLFilterViewVersionNumber;

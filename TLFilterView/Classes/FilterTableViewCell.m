@@ -50,12 +50,12 @@
         layout.scrollDirection = UICollectionViewScrollDirectionVertical;
         layout.minimumInteritemSpacing = 0.0;
         layout.minimumLineSpacing = 0.0;
-        CGFloat itempW = (FilterScreenW*0.875 - 0.75)/3.0;// 多减去0.5 和内缩0.25是为了去除cell的分割线重叠效果
+        CGFloat itempW = ([FilterConfigure shareInstance].contentWidth - 0.75)/3.0;// 多减去0.5 和内缩0.25是为了去除cell的分割线重叠效果
         layout.itemSize = CGSizeMake(itempW, 35);
         layout.sectionInset = UIEdgeInsetsMake(0.25, 0.25, 0, 0);
         //    layout.headerReferenceSize = CGSizeMake(self.view.width, 150);
         
-        filterCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, FilterScreenW*0.875, Height) collectionViewLayout:layout];
+        filterCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, [FilterConfigure shareInstance].contentWidth, Height) collectionViewLayout:layout];
         filterCollectionView.delegate = self;
         filterCollectionView.dataSource = self;
         filterCollectionView.alwaysBounceVertical = YES;
@@ -67,7 +67,7 @@
         [filterCollectionView registerClass:[FilterCollectionCell class] forCellWithReuseIdentifier:@"FilterCollectionCell"];
     }
     else{
-        filterCollectionView.frame = CGRectMake(0, 0, FilterScreenW*0.875, Height);
+        filterCollectionView.frame = CGRectMake(0, 0,[FilterConfigure shareInstance].contentWidth, Height);
         [filterCollectionView reloadData];
     }
     
