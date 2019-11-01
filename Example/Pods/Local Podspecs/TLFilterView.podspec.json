@@ -1,6 +1,6 @@
 {
   "name": "TLFilterView",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "A short description of TLFilterView.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/435129214/TLFilterView",
@@ -9,11 +9,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "435129214@qq.com": "liyanlei1@vipkid.com.cn"
+    "435129214@qq.com": "435129214@qq.com"
   },
   "source": {
     "git": "https://github.com/435129214/TLFilterView.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"
