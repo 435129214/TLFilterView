@@ -427,7 +427,7 @@
             [mDic setObject:cDic forKey:indexStr];
             //data是全部数据，移除吧
             [cDic removeObjectForKey:@"data"];
-            FilterTableViewCell *cell = [self.myTableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:sectionNum - 1 -i]];
+            FilterTableViewCell *cell = [self.myTableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:i]];
             id item = [cell GetChooseItem];
             if(item == nil)
             {
