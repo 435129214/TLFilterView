@@ -34,7 +34,11 @@ NS_ASSUME_NONNULL_BEGIN
 //底部按钮视图
 @property(nonatomic, strong) UIView *bottomView;
 
--(void) insertDataArr:(NSArray *)dataArr sectionTitle:(NSString *)title;
+//向后面追加数据
+-(void) appendDataArr:(NSArray *)dataArr sectionTitle:(NSString *)title;
+
+//像指定位置添加数据
+-(void) insertDataArr:(NSArray *)dataArr sectionTitle:(NSString *)title at:(NSInteger)at;
 
 @end
 

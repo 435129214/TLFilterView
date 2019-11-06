@@ -149,13 +149,32 @@
     return _myTableView;
 }
 
--(void) insertDataArr:(NSArray *)dataArr sectionTitle:(NSString *)title
+-(void) appendDataArr:(NSArray *)dataArr sectionTitle:(NSString *)title
 {
-    NSInteger sectionIndex = self.dataArr.count+1;
+        NSInteger sectionIndex = self.dataArr.count+1;
+        NSDictionary *dic = [self GetNeedDictionaryWithSection:sectionIndex Data:dataArr Choose:@"" Parent:title];
+        [self.dataArr addObject:dic];
+    
+        sectionNum = self.dataArr.count;
+        [self.myTableView reloadData];
+}
+
+-(void) insertDataArr:(NSArray *)dataArr sectionTitle:(NSString *)title at:(NSInteger)at
+{
+    //如果插入位置不合理，返回
+    if(self.dataArr.count < at){
+        return;
+    }
+    
+    NSInteger sectionIndex = at + 1;
     NSDictionary *dic = [self GetNeedDictionaryWithSection:sectionIndex Data:dataArr Choose:@"" Parent:title];
-    //                    [self.dataArr addObject:dic];
-//    [self.dataArr insertObject:dic atIndex:0];
-    [self.dataArr addObject:dic];
+    [self.dataArr insertObject:dic atIndex:at];
+    
+    NSInteger index = 0;
+    //循环修改旧数据的section下标
+    for(NSMutableDictionary *tmpDic in self.dataArr){
+        [tmpDic setValue:@(index) forKey:@"section"];
+    }
     
     sectionNum = self.dataArr.count;
     [self.myTableView reloadData];
