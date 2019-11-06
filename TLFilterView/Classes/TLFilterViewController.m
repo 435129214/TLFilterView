@@ -141,7 +141,7 @@
         
         [_myTableView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.topHeader.mas_bottom);
-            make.bottom.equalTo(self.view);
+            make.bottom.equalTo(self.bottomView.mas_top);
             make.left.equalTo(self.view).offset(self.leftW);
             make.width.mas_equalTo([FilterConfigure shareInstance].contentWidth);
         }];
