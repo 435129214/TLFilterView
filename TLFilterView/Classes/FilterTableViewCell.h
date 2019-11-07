@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "FilterCollectionCell.h"
+#import "EqualSpaceFlowLayout.h"
 
-@interface FilterTableViewCell : UITableViewCell<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@interface FilterTableViewCell : UITableViewCell<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout,EqualSpaceFlowLayoutDelegate>
 {
     UICollectionView *filterCollectionView;
 }
+
+@property(nonatomic, strong) EqualSpaceFlowLayout *flowLayout;
 
 @property(nonatomic, strong) NSDictionary *dataDic;
 

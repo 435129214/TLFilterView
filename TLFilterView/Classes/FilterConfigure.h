@@ -9,7 +9,18 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef enum
+{
+    FilterData_Equal = 0,//等分
+    FilterData_Dynamic,//动态布局
+}FilterDataShowType;
+
+
+
 @interface FilterConfigure : NSObject
+
+@property(nonatomic, assign) FilterDataShowType showType;
+
 
 @property(nonatomic, strong) UIColor *chooseBgColor;
 @property(nonatomic, strong) UIColor *normalBgColor;

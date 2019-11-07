@@ -8,6 +8,7 @@
 
 #import "TLViewController.h"
 #import <TLFilterView/Children.h>
+#import <TLFilterViewHeader.h>
 
 @interface TLViewController ()
 
@@ -19,16 +20,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [FilterConfigure shareInstance].showType = FilterData_Dynamic;
     
     NSMutableArray *tmpArr = [NSMutableArray arrayWithCapacity:10];
     for(int i = 0; i < 10;++i){
         Children *child = [[Children alloc] init];
         
         child.childrenIdentifier = i;
-        child.name = [NSString stringWithFormat:@"序号：%d",i];
+        child.name = [NSString stringWithFormat:@"序号序号序号序号：%d",i];
         [tmpArr addObject:child];
     }
-    [self insertDataArr:tmpArr sectionTitle:@"状态"];
+    [self appendDataArr:tmpArr sectionTitle:@"状态"];
     
     NSMutableArray *tmpArr1 = [NSMutableArray arrayWithCapacity:10];
        for(int i = 0; i < 10;++i){
@@ -38,7 +40,7 @@
            child.name = [NSString stringWithFormat:@"序号：1%d",i];
            [tmpArr1 addObject:child];
        }
-    [self insertDataArr:tmpArr1 sectionTitle:@"拉速度发水电费"];
+    [self appendDataArr:tmpArr1 sectionTitle:@"拉速度发水电费"];
     
     
     self.DoFilter = ^(NSDictionary * _Nonnull dic) {

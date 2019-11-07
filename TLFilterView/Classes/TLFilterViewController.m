@@ -33,6 +33,8 @@
 @property(nonatomic, assign) CGFloat leftW;//左侧距离
 
 
+@property(nonatomic, strong)   NSMutableDictionary *reuseCellDic;
+
 @end
 
 @implementation TLFilterViewController
@@ -74,6 +76,15 @@
     footView.frame = footView.bounds;
     
     self.myTableView.tableFooterView = footView;
+}
+
+-(NSMutableDictionary *)reuseCellDic
+{
+    if(!_reuseCellDic){
+        _reuseCellDic = [NSMutableDictionary dictionaryWithCapacity:10];
+        
+    }
+    return _reuseCellDic;
 }
 
 -(void) setHeaderDataArr:(NSArray *)headerDataArr
@@ -157,6 +168,13 @@
     
         sectionNum = self.dataArr.count;
         [self.myTableView reloadData];
+    
+    //因为有高度问题，需要调用两次，第二次才能真正获取高度
+    if([FilterConfigure shareInstance].showType == FilterData_Dynamic){
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [self.myTableView reloadData];
+        });
+    }
 }
 
 -(void) insertDataArr:(NSArray *)dataArr sectionTitle:(NSString *)title at:(NSInteger)at
@@ -178,6 +196,13 @@
     
     sectionNum = self.dataArr.count;
     [self.myTableView reloadData];
+    
+    //因为有高度问题，需要调用两次，第二次才能真正获取高度
+    if([FilterConfigure shareInstance].showType == FilterData_Dynamic){
+           dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+               [self.myTableView reloadData];
+           });
+       }
 }
 
 
@@ -454,6 +479,8 @@
 
 //cell高度
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if([FilterConfigure shareInstance].showType == FilterData_Equal){
     CGFloat cellH = 0;
     
     NSArray *arr = [[self.dataArr objectAtIndex:indexPath.section] objectForKey:@"data"];
@@ -464,6 +491,12 @@
     }
     
     return cellH;
+    }
+    else{
+        FilterTableViewCell *cell = (FilterTableViewCell *)[self tableView:self.myTableView cellForRowAtIndexPath:indexPath];
+        
+        return cell.height;
+    }
 }
 
 -(NSInteger) numberOfSectionsInTableView:(UITableView *)tableView
@@ -488,12 +521,25 @@
     return row;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString  *identifier = @"FilterTableViewCell";
-    FilterTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
-    if (!cell) {
-        cell = [[FilterTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+
+-(FilterTableViewCell *) getReuseCell:(NSString *)key
+{
+    FilterTableViewCell *cell = [self.reuseCellDic objectForKey:key];
+    
+    if(!cell){
+        cell = [[FilterTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:key];
+        
+        [self.reuseCellDic setObject:cell forKey:key];
     }
+    
+    return cell;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    NSString  *key = [NSString stringWithFormat:@"FilterTableViewCell%ld%ld",indexPath.section,(long)indexPath.row];
+    FilterTableViewCell *cell = [self getReuseCell:key];
+
   
 #if 1
     NSDictionary *tmpDic = [self.dataArr objectAtIndex:indexPath.section];

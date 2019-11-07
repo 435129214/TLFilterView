@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "EqualSpaceFlowLayout.h"
 #import "FilterCollectionCell.h"
 #import "FilterConfigure.h"
 #import "FilterFootView.h"

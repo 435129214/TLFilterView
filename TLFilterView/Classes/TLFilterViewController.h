@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,strong) UIView *topHeader;
 @property (nonatomic,strong) UITableView *myTableView;
+@property (nonatomic, strong) UICollectionView *collectionView;
 
 @property (nonatomic, strong) UIButton *resetBt,*sureBt;
 #pragma mark 底部视图属性

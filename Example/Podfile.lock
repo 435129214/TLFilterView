@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - TLFilterView (1.0.3):
+  - TLFilterView (1.0.6):
     - Masonry
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  TLFilterView: c5788fec90bf1fc6b434f212fa500899e473f9f0
+  TLFilterView: 149d5c228a954c191152d4c2f48885d93907638a
 
 PODFILE CHECKSUM: b70d69ec674ce9f7eb074807f5aa5c4fc7d006a3
 
