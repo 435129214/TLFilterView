@@ -39,10 +39,10 @@
     return self;
 }
 
--(EqualSpaceFlowLayout *)flowLayout
+-(TLEqualSpaceFlowLayout *)flowLayout
 {
     if(!_flowLayout){
-        _flowLayout = [[EqualSpaceFlowLayout alloc] init];
+        _flowLayout = [[TLEqualSpaceFlowLayout alloc] init];
         _flowLayout.delegate =self;
     }
     return _flowLayout;

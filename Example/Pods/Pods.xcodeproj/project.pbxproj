@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E30AC23042FFE57EA32534A8A29C53 /* TLFilterCommonHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FDDB04DCC1846BC4B9104CB2C73DA4A /* TLFilterCommonHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		053BCA543A575721118D1A1A8EA3C2C4 /* EqualSpaceFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C873CFADC2E9273D00169B7C5EBC19CA /* EqualSpaceFlowLayout.m */; };
+		053BCA543A575721118D1A1A8EA3C2C4 /* TLEqualSpaceFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C873CFADC2E9273D00169B7C5EBC19CA /* TLEqualSpaceFlowLayout.m */; };
 		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */; };
@@ -19,7 +19,7 @@
 		15871BFF153148E18349416CC854BCD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
 		191C0EA3501E8F2928E99EA1FC738240 /* FilterCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3D3036B6CE8A1FBCA129F58DDD7DEE /* FilterCollectionCell.m */; };
 		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */; };
-		1CBB0F047CB0F20F36A89F9719AE2CAA /* EqualSpaceFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = CD339BEEE7E4BD00D9B331AD269C6B40 /* EqualSpaceFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CBB0F047CB0F20F36A89F9719AE2CAA /* TLEqualSpaceFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = CD339BEEE7E4BD00D9B331AD269C6B40 /* TLEqualSpaceFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F438D3754483766EEA6070F0C273DF7 /* FilterConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 110EE46BEA64F3BD1E885D187E882427 /* FilterConfigure.m */; };
 		27712A510E84345B640C7A274EE67516 /* FilterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DB0442AAEBFB42904C43FA27564AE6 /* FilterTableViewCell.m */; };
 		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -109,11 +109,11 @@
 		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		15CE2F52A4825C35A49E63BAF57ACA17 /* FilterTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterTableViewCell.h; path = TLFilterView/Classes/FilterTableViewCell.h; sourceTree = "<group>"; };
-		15FE77E224AD0F5ADC2FD3248204837F /* Pods_TLFilterView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLFilterView_Example.framework; path = "Pods-TLFilterView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FE77E224AD0F5ADC2FD3248204837F /* Pods_TLFilterView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLFilterView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C8D645899DEC467D45284758A7E90BA /* FilterSearchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterSearchView.m; path = TLFilterView/Classes/FilterSearchView.m; sourceTree = "<group>"; };
 		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		267C6BE0384091EC7F524BD89A02D489 /* Pods-TLFilterView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLFilterView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		272A6EC8578A9147C502DD617D7466A9 /* Pods-TLFilterView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLFilterView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -137,20 +137,20 @@
 		72EE44BA6982931F98F686841342D17D /* TLFilterViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLFilterViewController.h; path = TLFilterView/Classes/TLFilterViewController.h; sourceTree = "<group>"; };
 		7A3D3036B6CE8A1FBCA129F58DDD7DEE /* FilterCollectionCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FilterCollectionCell.m; path = TLFilterView/Classes/FilterCollectionCell.m; sourceTree = "<group>"; };
 		7C771FA68E7BB5ECEAB2C64682E3990B /* CategoryGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CategoryGroup.h; sourceTree = "<group>"; };
-		7FB474B2759A5B755DB9C2AA5D792EB2 /* TLFilterView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLFilterView.framework; path = TLFilterView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB474B2759A5B755DB9C2AA5D792EB2 /* TLFilterView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLFilterView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		92CDD60E5BF4B85AD6077DC24ABF37F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		92CDD60E5BF4B85AD6077DC24ABF37F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EC631B3C326BFC972A09E36B24E49DF /* FilterSearchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterSearchView.h; path = TLFilterView/Classes/FilterSearchView.h; sourceTree = "<group>"; };
 		A07CA7A0FFC4BF0F2D14F131A70B80E3 /* TLFilterView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLFilterView.xcconfig; sourceTree = "<group>"; };
 		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		A817F7B6CC8E9B265F5772CD55F79FE4 /* FilterHeadView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterHeadView.h; path = TLFilterView/Classes/FilterHeadView.h; sourceTree = "<group>"; };
-		A90672B7C7E27A04E9D2DC9BCC8C35E0 /* TLFilterView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TLFilterView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A90672B7C7E27A04E9D2DC9BCC8C35E0 /* TLFilterView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TLFilterView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
@@ -161,13 +161,13 @@
 		BF2CC43961442847494C53E4E4788D27 /* TLFilterViewHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLFilterViewHeader.h; path = TLFilterView/Classes/TLFilterViewHeader.h; sourceTree = "<group>"; };
 		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		C6BB67E4CCE1CAA10862669CB55CD4B4 /* Pods-TLFilterView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLFilterView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C873CFADC2E9273D00169B7C5EBC19CA /* EqualSpaceFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EqualSpaceFlowLayout.m; path = TLFilterView/Classes/EqualSpaceFlowLayout.m; sourceTree = "<group>"; };
+		C873CFADC2E9273D00169B7C5EBC19CA /* TLEqualSpaceFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLEqualSpaceFlowLayout.m; path = TLFilterView/Classes/TLEqualSpaceFlowLayout.m; sourceTree = "<group>"; };
 		CBE7C749CA0E1D698FCA2C543E091450 /* Pods-TLFilterView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLFilterView_Example-dummy.m"; sourceTree = "<group>"; };
-		CD339BEEE7E4BD00D9B331AD269C6B40 /* EqualSpaceFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EqualSpaceFlowLayout.h; path = TLFilterView/Classes/EqualSpaceFlowLayout.h; sourceTree = "<group>"; };
+		CD339BEEE7E4BD00D9B331AD269C6B40 /* TLEqualSpaceFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLEqualSpaceFlowLayout.h; path = TLFilterView/Classes/TLEqualSpaceFlowLayout.h; sourceTree = "<group>"; };
 		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		D15A70A6D8312EA1340FD00611D478AA /* FilterSectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterSectionView.h; path = TLFilterView/Classes/FilterSectionView.h; sourceTree = "<group>"; };
 		D25AC90BE699E53E80038DC5BB6D2278 /* CategoryGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CategoryGroup.m; sourceTree = "<group>"; };
-		D3A906CC867EFD89D590E4E08406CF14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D3A906CC867EFD89D590E4E08406CF14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D9DA2152E0C4F1E80A7181D920143E4F /* FilterFootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilterFootView.h; path = TLFilterView/Classes/FilterFootView.h; sourceTree = "<group>"; };
 		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
@@ -239,8 +239,8 @@
 		5E2E3D321251C5DF2447845CDE636A6C /* TLFilterView */ = {
 			isa = PBXGroup;
 			children = (
-				CD339BEEE7E4BD00D9B331AD269C6B40 /* EqualSpaceFlowLayout.h */,
-				C873CFADC2E9273D00169B7C5EBC19CA /* EqualSpaceFlowLayout.m */,
+				CD339BEEE7E4BD00D9B331AD269C6B40 /* TLEqualSpaceFlowLayout.h */,
+				C873CFADC2E9273D00169B7C5EBC19CA /* TLEqualSpaceFlowLayout.m */,
 				106D983428386D3FD3C3F5787E4773D4 /* FilterCollectionCell.h */,
 				7A3D3036B6CE8A1FBCA129F58DDD7DEE /* FilterCollectionCell.m */,
 				FE910A2E3D39E21FF44C2368F9333CD7 /* FilterConfigure.h */,
@@ -299,7 +299,6 @@
 				071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */,
 				BDFB34A12FABD70C59DCE49920774B47 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -448,7 +447,7 @@
 			files = (
 				4F69ACBF3DAD80AFD6958D3845D5AEB7 /* CategoryGroup.h in Headers */,
 				D650B2774F79FBF243D60F7743B3FA24 /* Children.h in Headers */,
-				1CBB0F047CB0F20F36A89F9719AE2CAA /* EqualSpaceFlowLayout.h in Headers */,
+				1CBB0F047CB0F20F36A89F9719AE2CAA /* TLEqualSpaceFlowLayout.h in Headers */,
 				61D7D13E2592D9809B5D9DD8F28198BC /* FilterCollectionCell.h in Headers */,
 				7B1D409754D968C6943863D971AC9160 /* FilterConfigure.h in Headers */,
 				40AFF4DFA8528FD93BC95DB0282A0D34 /* FilterFootView.h in Headers */,
@@ -602,7 +601,7 @@
 			files = (
 				96FB394EA8EF69275F3D02821F2F0A6C /* CategoryGroup.m in Sources */,
 				F8B117C39F1EB71BA81D4048565644B5 /* Children.m in Sources */,
-				053BCA543A575721118D1A1A8EA3C2C4 /* EqualSpaceFlowLayout.m in Sources */,
+				053BCA543A575721118D1A1A8EA3C2C4 /* TLEqualSpaceFlowLayout.m in Sources */,
 				191C0EA3501E8F2928E99EA1FC738240 /* FilterCollectionCell.m in Sources */,
 				1F438D3754483766EEA6070F0C273DF7 /* FilterConfigure.m in Sources */,
 				3148518FDB9A9D32CBD0E92570688038 /* FilterFootView.m in Sources */,
@@ -764,8 +763,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

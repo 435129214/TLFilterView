@@ -1,18 +1,18 @@
 //
-//  EqualSpaceFlowLayout.m
+//  TLEqualSpaceFlowLayout.m
 //  UICollectionViewDemo
 //
 //  Created by CHC on 2018/8/9
 //  Copyright (c) 2018年 CHC. All rights reserved.
 //
 
-#import "EqualSpaceFlowLayout.h"
+#import "TLEqualSpaceFlowLayout.h"
 
-@interface EqualSpaceFlowLayout()
+@interface TLEqualSpaceFlowLayout()
 @property (nonatomic, strong) NSMutableArray *itemAttributes;
 @end
 
-@implementation EqualSpaceFlowLayout
+@implementation TLEqualSpaceFlowLayout
 - (id)init
 {
     if (self = [super init]) {
