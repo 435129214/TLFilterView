@@ -374,7 +374,10 @@
 //            [dic setValue:@"" forKey:@"parent"];
 //        }
 //    }
-
+    
+    if(self.ReSetAllData){
+        self.ReSetAllData();
+    }
 
     [self.myTableView reloadData];
 }

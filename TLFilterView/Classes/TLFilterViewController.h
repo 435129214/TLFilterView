@@ -32,6 +32,9 @@ NS_ASSUME_NONNULL_BEGIN
 //包含主控件，头部和底部控件
 @property(nonatomic, copy) void(^DoMoreFilterParam)(NSDictionary *dic, NSDictionary *headDic, NSDictionary *footDic);
 
+@property(nonatomic, copy) void(^ReSetAllData)(void);
+
+
 //底部按钮视图
 @property(nonatomic, strong) UIView *bottomView;
 
