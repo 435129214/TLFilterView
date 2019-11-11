@@ -281,7 +281,7 @@
         
         //把全部给弄出来，全部一直是默认
         for(Children *child in self.filterDataArr){
-            if([child.name isEqualToString:@"全部"])
+            if([child.name isEqualToString:@"全部"] || [child.name isEqualToString:@"All"])
             {
                 child.selected = YES;
             }
